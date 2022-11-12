@@ -1,0 +1,5 @@
+20221111	09:54:56	c657bd34-d792-4816-902e-5eb6c0ae74bd	Another LOG Event emitted!
+20221111	09:55:21	62749ea9-d551-4549-a311-7e0e8c49ff8e	log event emitted!
+20221111	09:55:24	1a67debb-bff0-4097-9ed2-d89690e6c00e	log event emitted!
+20221111	09:55:24	9bf4000b-02b6-4b1e-ba15-41e9b36504ad	Another LOG Event emitted!
+20221111	09:55:24	34699346-6624-429d-8399-90c277f6de88	Third log event emitted!
