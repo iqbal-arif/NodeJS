@@ -1,0 +1,20 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "1. Update Dependencies : npm update\r 2. Install Dependencies : npm Install\r 3. Install ExpressJS : npm i express",
+  "main": "logEvents.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "data-fns": "^0.1.8",
+    "date-fns": "^2.29.3",
+    "express": "^4.18.2",
+    "expressjs": "^1.0.1",
+    "uuid": "^9.0.0"
+  }
+}
