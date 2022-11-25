@@ -1,0 +1,9 @@
+20221112	11:55:08	79edbacb-142e-4333-9ac4-1b9d5dbc4e5d	/new-page	GET
+20221112	11:55:08	608bcb1b-5b1d-4e7c-b4d6-7b78f566ea0f	/css/style.css	GET
+20221112	11:55:08	ad324b6f-5a4d-48cf-8fa8-db7499885b55	/img/img1.jpg	GET
+20221112	11:56:30	76a9cabb-4c6e-446e-ab1e-fa256532899f	/new-page	GET
+20221112	11:56:59	886bc1b0-9a18-4270-85c6-4e978c3ddbe6	/new-page	GET
+20221112	11:56:59	9c1013fd-23e3-47c7-adc8-c09e3f8f35fc	/css/style.css	GET
+20221112	11:56:59	09d09d7d-3c87-413d-a11c-011a39e4f013	/img/img1.jpg	GET
+20221116	16:02:14	b4932d4b-6eb9-43f7-b5cb-0f5d93ae1dd4	GET	undefined	/
+20221116	16:02:14	cd287bad-5ba4-4e36-ba7a-7c15af5aaa65	GET	undefined	/css/style.css
