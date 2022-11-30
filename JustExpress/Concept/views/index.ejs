@@ -1,0 +1,38 @@
+<h1>Rendering EJS Index file</h1>
+<!-- EJS Code for DOM -->
+<% for( let i = 0; i < 3; i++ ) { %>
+<li>Text</li>
+<% } %>
+
+<hr />
+<!-- JavaScript Code for DOM -->
+
+<script>
+  for (let j = 0; j < 3; j++) {
+    document.write('<li>Test</li>');
+  }
+</script>
+
+<!-- EJS OUTPUT Value <%=  %> for DOM -->
+<!-- Gives list values from 0 to 9 in DOM -->
+<% for( let i = 0; i < 3; i++ ) { %>
+<li><%= i %></li>
+<% } %>
+<hr />
+
+<% for( let x = 0; x < 3; x++ ) { %> <% if (x % 2 === 0) { txt = "even"%> <%}
+else { txt = "odd" }%>
+<li><%= x %> ---- <%= txt %></li>
+<% } %>
+
+<!-- This msg is coming from render method second arg. -->
+<!-- with locals.msg it gives the same result, so don't need to right it -->
+<h2><%= msg%></h2>
+<h2><%= locals.msg%></h2>
+<!-- Validation from middleware -->
+<h2><%= validated%></h2>
+
+<!-- Rendering HTML image -->
+<%# This is a EJS Comment %> <%- html %>
+<!-- EJS INCLUDE TAG for HEAD, NAVBAR,  -->
+<% include %>

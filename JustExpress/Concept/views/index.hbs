@@ -1,0 +1,20 @@
+<h1>Rendering HBS Index file</h1>
+
+your message is :
+{{msg}}
+
+{{! For HTML interpretation  }}
+{{{hmtl}}}
+
+{{! The value interpreter was for object item, now it is an array }}
+Country Name:
+{{countries.name}}
+Country Capital:
+{{countries.capital}}
+
+{{! each , if }}
+{{#each countries}}
+  {{#if this.western}}
+    <li>{{this.name}} -- {{this.capital}}</li>
+  {{/if}}
+{{/each}}
